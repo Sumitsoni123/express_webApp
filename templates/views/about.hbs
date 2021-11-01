@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    <!--navbar section-->
+    {{>navbar}}
+
+    <!--Main Header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div-->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="images/aboutimg.png" alt="img" class="img-fluid" title="baby">
+                        </figure>
+                    </div>
+                    <!--right side div-->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to weather app</p>
+                        <h1>Get the Latest <span class="text_clr">Weather</span> Info of Your City</h1>
+                        <a href="/weather"><button>About me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    {{>footer}}
+</body>
+
+</html>
